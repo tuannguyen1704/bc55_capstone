@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    
+    font-family: 'Nunito', sans-serif;
+}
+header{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.header__content{
+    display: flex;
+    justify-content: space-between;
+
+    padding-top: 20px;
+}
+.logo{
+    font-size: 24px;
+    font-weight: bold;
+    color: #dc4f72;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    padding-right: 25px;
+    display: inline;
+
+}
+nav ul li .active{
+    color: #dc4f72;
+}
+nav ul li .search{
+    background-color: rgba(128, 128, 128, 0.118);
+    border-radius: 50%;
+    padding: 7px 10px;
+    border: 1px solid rgba(128, 128, 128, 0.095);
+}
+nav ul li .search i{
+    font-size: 15px;
+    color: #5a5a5a87;
+}
+nav ul li .menu__button{
+    font-size: 16px;
+    font-weight: 600;
+    color: #dc4f72;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    border: 1px solid #dc4f72;
+}
+nav ul li .moon i{
+    font-size: 25px;
+}
