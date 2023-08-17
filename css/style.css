@@ -1,144 +1,243 @@
 /* Fag */
+
+.fag {
+  background-color: #f7f9fc;
+}
 .fagpage .title h6 {
-    font-size: 16px;
-    line-height: 20px;
-    font-weight: 700;
-    color: #dc4f72;
-    text-transform: uppercase;
-    margin-bottom: 5px;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  color: #dc4f72;
+  text-transform: uppercase;
+  margin-bottom: 5px;
 }
 
 .title h3 {
-    font-size: 46px;
-    line-height: 1;
-    font-weight: 700;
+  font-size: 46px;
+  line-height: 1;
+  font-weight: 700;
 }
 
 .title p {
-    color: #696b79;
+  color: #696b79;
 }
 
 .row .img img {
-    width: 461px;
-    height: 492px;
-    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-    transform: translateY(20px);
-    transition: all 0.5s;
-
+  width: 461px;
+  height: 492px;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  transform: translateY(20px);
+  transition: all 0.5s;
 }
 .row .img img:hover {
-    transform: translateY(0);
+  transform: translateY(0);
 }
 
 .row {
-    display: flex;
-    flex-wrap: wrap;
-    margin-right: -15px;
-    margin-left: -15px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
 }
 
 .fag .column-content ul {
-    list-style: none;
-    padding: 0;
-    max-width: 750px;
-    margin: 0 auto;
+  list-style: none;
+  padding: 0;
+  max-width: 750px;
+  margin: 0 auto;
 }
 
 .fag .column-content ul li {
-    position: relative;
-    padding: 25px 50px 25px 20px;
-    border: 1px solid #eee;
-    margin: 0 0 15px 0;
-    border-radius: 6px;
-    background: white;
+  position: relative;
+  padding: 25px 50px 25px 20px;
+  border: 1px solid #eee;
+  margin: 0 0 15px 0;
+  border-radius: 6px;
+  background: white;
 }
 
 .fag .column-content ul li:nth-of-type(1) {
-    -webkit-animation-delay: 0.5s;
-    animation-delay: 0.5s;
+  -webkit-animation-delay: 0.5s;
+  animation-delay: 0.5s;
 }
 
 .fag .column-content ul li i {
-    position: absolute;
-    transform: translate(-6px, 0);
-    margin-top: 16px;
-    right: 25px;
-    top: 16px;
+  position: absolute;
+  transform: translate(-6px, 0);
+  margin-top: 16px;
+  right: 25px;
+  top: 16px;
 }
 
 .fag .column-content ul li i:before,
 .fag .column-content ul li i:after {
-    content: "";
-    position: absolute;
-    background-color: black;
-    width: 3px;
-    height: 9px;
-    transition: all 0.5s;
+  content: "";
+  position: absolute;
+  background-color: black;
+  width: 3px;
+  height: 9px;
+  transition: all 0.5s;
 }
 
 .fag .column-content ul li i:before {
-    transform: translate(-2px, 0) rotate(45deg);
+  transform: translate(-2px, 0) rotate(45deg);
 }
 
 .fag .column-content ul li i:after {
-    transform: translate(2px, 0) rotate(-45deg);
+  transform: translate(2px, 0) rotate(-45deg);
 }
 
-.fag .column-content ul li input[type=checkbox] {
-    position: absolute;
-    cursor: pointer;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-    opacity: 0;
-    top: 0;
-    left: 0;
-    -webkit-appearance: none;
-    transition: all 0.5s;
+.fag .column-content ul li input[type="checkbox"] {
+  position: absolute;
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 0;
+  top: 0;
+  left: 0;
+
+  transition: all 0.5s;
 }
 
-.fag .column-content ul li input[type=checkbox]:checked~p {
-    margin-top: 0;
-    max-height: 0;
-    opacity: 0;
-    transform: translate(0, 50%);
-    transition: all 0.5s;
+.fag .column-content ul li input[type="checkbox"]:checked ~ p {
+  margin-top: 0;
+  max-height: 0;
+  opacity: 0;
+  transform: translate(0, 50%);
+  transition: all 0.5s;
 }
 
-.fag .column-content ul li input[type=checkbox]:checked~i:before {
-    transform: translate(2px, 0) rotate(45deg);
+.fag .column-content ul li input[type="checkbox"]:checked ~ i:before {
+  transform: translate(2px, 0) rotate(45deg);
 }
 
-.fag .column-content ul li input[type=checkbox]:checked~i:after {
-    transform: translate(-2px, 0) rotate(-45deg);
+.fag .column-content ul li input[type="checkbox"]:checked ~ i:after {
+  transform: translate(-2px, 0) rotate(-45deg);
 }
 
 @media screen and (max-width: 480px) {
-    .fag .column-content h2 {
-        font-size: 18px;
-        line-height: 30px;
-    }
+  .fag .column-content h2 {
+    font-size: 18px;
+    line-height: 30px;
+  }
 }
 
-.column-content h2{
-    font-size: 20px;
-    line-height: 1;
-    font-weight: normal;
-    display: block;
-    margin: 0;
-    cursor: pointer;
-    color: black;
+.column-content h2 {
+  font-size: 20px;
+  line-height: 1;
+  font-weight: normal;
+  display: block;
+  margin: 0;
+  cursor: pointer;
+  color: black;
 }
 
-.column-content p{
-    color: #5a5a5a;
-    font-size: 16px;
-    line-height: 24.5px;
-    position: relative;
-    overflow: hidden;
-    max-height: 800px;
-    opacity: 1;
-    transform: translate(0, 0);
-    margin-top: 14px;
-    z-index: 2;
+.column-content p {
+  color: #5a5a5a;
+  font-size: 16px;
+  line-height: 24.5px;
+  position: relative;
+  overflow: hidden;
+  max-height: 800px;
+  opacity: 1;
+  transform: translate(0, 0);
+  margin-top: 14px;
+  z-index: 2;
+}
+
+/* projects */
+
+.projects {
+  background-color: white;
+}
+
+.projects .projects-title h6 {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  color: #dc4f72;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+
+.projects .projects-title h3 {
+  font-size: 46px;
+  line-height: 1;
+  font-weight: 700;
+}
+
+.projects .projects-title p {
+  color: #696b79;
+}
+
+.projects-content {
+  position: relative;
+}
+.card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  position: absolute;
+  width: 100%;
+}
+.projects .projects-content .row .item-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.projects .projects-content .img img {
+  width: 447px;
+  height: 298px;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.projects-content .nav-pills .nav-item {
+  text-align: center;
+  width: 33%;
+}
+.projects-content .nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  background-color: white;
+  color: #dc4f72;
+  border-bottom: 3px solid #dc4f72;
+}
+.nav .nav-item a {
+  color: black;
+  border-bottom: 3px solid gray;
+  font-size: 22px;
+  font-weight: 500;
+  padding: 15px;
+
+  list-style: none;
+}
+
+.projects .projects-content .row .title h3 {
+  color: black;
+  margin-bottom: 16px;
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 500;
+}
+.projects .projects-content .row .title a {
+  color: #dc4f72;
+  border: 1px solid #dc4f72;
+  text-transform: uppercase;
+  font-weight: 500;
+  padding: 10px 35px;
+  font-size: 15px;
+  transition: all 0.5s;
+}
+.projects .projects-content .row .title a:hover {
+  background-color: #dc4f72;
+  border: none;
+  color: white;
+}
+.row .img img {
+  border-radius: 10px;
 }
