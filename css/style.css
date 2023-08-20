@@ -464,7 +464,7 @@
 }
 .slick-dots li button:before {
   font-size: 10px;
-  color: white;
+  color: #dc4f72;
 }
 .slick-dots li button:hover {
   color: #dc4f72;
