@@ -469,3 +469,29 @@
 .slick-dots li button:hover {
   color: #dc4f72;
 }
+
+/* backtotop */
+.backToTop {
+  background-color: #e17e97;
+  color: white;
+  padding: 15px 17px;
+  transition: all 0.5s;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+
+  opacity: 0;
+  visibility: hidden;
+}
+.backToTop i:hover {
+  background-color: #bd2b50;
+}
+
+.cd-top--is-visible {
+  visibility: visible;
+  opacity: 1;
+}
+
+.cd-top--fade-out {
+  opacity: 0.5;
+}
