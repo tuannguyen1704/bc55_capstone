@@ -251,6 +251,18 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  background-attachment: fixed;
+  position: relative;
+}
+.feedback .overlay {
+  background-color: #ffffffc9;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+}
+.feedback .feedback-title {
+  position: relative;
 }
 
 .feedback .feedback-title h6 {
@@ -269,6 +281,24 @@
 .feedback .feedback-title p {
   color: #696b79;
 }
+.slider-content .item {
+  position: relative;
+}
+.slider-content .row .item i {
+  position: absolute;
+  font-size: 40px;
+  color: #2c3038;
+  opacity: 0.2;
+  position: absolute;
+  top: 0px;
+
+  right: 330px;
+}
+.slider-content .row .item .avatar img {
+  position: absolute;
+  top: 0;
+  left: 50px;
+}
 
 .feedback .feedback-slider .row .avatar img {
   width: 100px;
@@ -283,8 +313,18 @@
   padding-left: 150px;
 }
 .feedback .feedback-slider .slider-content .item {
-  width: 575px;
-  height: 291px;
+  max-width: 95%;
+  margin: 30px;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-gap: 50px;
+  background-color: white;
+  border-radius: 10px;
+}
+.feedback .feedback-slider .slider-content .item .content h4 {
+  font-size: 18px;
+  color: #dc4f72;
+  font-weight: 400;
 }
 .feedback .feedback-slider .slider-content .item .row .content {
   display: inline;
