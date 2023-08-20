@@ -12,7 +12,12 @@
     align-items: center;
     height: 90px;
     background-color: white;
-
+    transition: all 0.5s;
+}
+.nav__fixed{
+    height: 70px;
+    border-bottom: none;
+    background-color: white;
 }
 .fixed__top{
     position: fixed;
