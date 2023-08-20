@@ -474,11 +474,12 @@
 .backToTop {
   background-color: #e17e97;
   color: white;
-  padding: 15px 17px;
+  padding: 12px 17px;
   transition: all 0.5s;
   position: fixed;
   right: 0;
   bottom: 0;
+  border-radius: 10px;
 
   opacity: 0;
   visibility: hidden;
