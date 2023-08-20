@@ -21,6 +21,9 @@
 .title p {
   color: #696b79;
 }
+.row .img {
+  position: sticky;
+}
 
 .row .img img {
   width: 461px;
@@ -285,4 +288,133 @@
 }
 .feedback .feedback-slider .slider-content .item .row .content {
   display: inline;
+}
+.slider-content .item .row .content i {
+  color: gray;
+  font-size: 50px;
+}
+.slider-content .item .row .content h4 {
+  font-size: 18px;
+  color: #dc4f72;
+  font-weight: 400;
+}
+.slider-content .row .item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* community */
+.community .community-title h3 {
+  color: black;
+  font-size: 46px;
+  line-height: 1;
+  font-weight: 700;
+}
+.community .community-title p {
+  color: #5a5a5a;
+  font-size: 16px;
+  line-height: 22.5px;
+  font-weight: 400;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+
+.community .buttons {
+  margin-left: 380px;
+}
+.theme-button {
+  display: inline-block;
+  line-height: 52px;
+  font-weight: 700;
+  font-size: 14px;
+  margin: 0px;
+  padding: 0px 30px;
+  text-transform: uppercase;
+}
+.btn-outline-primary {
+  color: #dc4f72;
+  border-color: #dc4f72;
+
+  transition: all 0.5s;
+}
+.btn-outline-primary:hover {
+  background-color: #dc4f72;
+  color: white;
+  border: none;
+}
+
+.btn-primary {
+  background-color: #dc4f72;
+  color: white;
+
+  border: none;
+  transition: all 0.5s;
+}
+.btn-primary:hover {
+  background-color: #bd2b50;
+}
+
+/* footer */
+.footer {
+  background-color: #f7f9fc;
+}
+.footer .row ul {
+  list-style: none;
+}
+.footer .row ul li {
+  color: gray;
+  margin: 10px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.footer .row ul li:hover {
+  color: #dc4f72;
+}
+.social li {
+  display: inline;
+  padding: 10px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.social li:hover {
+  color: #dc4f72;
+}
+.footer h3 {
+  font-size: 20px;
+  line-height: 25px;
+  color: black;
+  margin-bottom: 30px;
+  font-weight: 700;
+}
+.footer .end-column {
+  background-color: white;
+  padding: 2em;
+  border-radius: 10px;
+  box-shadow: 1px 5px 7.5px rgba(14, 13, 13, 0.2);
+}
+.footer .subscribe input[type="email"] {
+  background: #f7f9fc;
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  outline: none;
+  width: 78%;
+  color: black;
+  font-weight: 600;
+  border-radius: 10px;
+}
+.footer .subscribe button {
+  text-align: center;
+  background: #dc4f72;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 12px 20px;
+  cursor: pointer;
+  width: 20%;
+  color: #fff;
+  border-radius: 10px;
 }
