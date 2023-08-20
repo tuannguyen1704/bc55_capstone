@@ -458,3 +458,14 @@
   color: #fff;
   border-radius: 10px;
 }
+
+.slick-dots li.slick-active button:before {
+  color: #dc4f72;
+}
+.slick-dots li button:before {
+  font-size: 10px;
+  color: white;
+}
+.slick-dots li button:hover {
+  color: #dc4f72;
+}
