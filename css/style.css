@@ -84,6 +84,7 @@
 
 .fag .column-content ul li i:before {
   transform: translate(-2px, 0) rotate(45deg);
+  color: white;
 }
 
 .fag .column-content ul li i:after {
